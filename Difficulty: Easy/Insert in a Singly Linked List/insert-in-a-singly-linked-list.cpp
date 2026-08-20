@@ -16,7 +16,6 @@ class Solution {
         // code here
         if(pos == 1){
             Node* curr = new Node(val);
-            // curr->data = val;
             curr->next = head;
             return curr;
         }
